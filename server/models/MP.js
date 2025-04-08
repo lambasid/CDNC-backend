@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Create separate connection for MP DB
-const mpConnection = mongoose.createConnection("mongodb://localhost:27017/DisabilityAdvocacy", {
+const mpConnection = mongoose.createConnection("mongodb://localhost:27017/admin", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
